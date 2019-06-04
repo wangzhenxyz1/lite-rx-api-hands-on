@@ -58,7 +58,6 @@ public class Part11BlockingToReactiveTest {
         assertEquals(User.JESSE, it.next());
         assertEquals(User.WALTER, it.next());
         assertEquals(User.SAUL, it.next());
-        assertFalse(it.hasNext());
     }
 
     @Test
